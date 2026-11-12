@@ -7,7 +7,7 @@ Anyway if someone interested thats example of my code usage (RediafileAPI is the
 
 from RediafileAPI import RediafileClient, RediafileError
 
-client = RediafileClient(key1="lpaWQ7jFQdpRVYyaOWxloJQ8A3C5WI7SxVBDtnZVwiMedvaGILghJmvvkoEmXEJy", key2="zJZNtV1HnVrdV9jyqGOqT6Fj6rZItE04BxoE7qjFZjmeeqQywr0AJ7VDZmxZEdmO")
+client = RediafileClient(key1="", key2="")
 
 
 try:
