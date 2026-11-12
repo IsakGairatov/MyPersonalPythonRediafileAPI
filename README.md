@@ -37,4 +37,8 @@ try:
 except RediafileError as e:
     print(f"\n❌ Ошибка Rediafile: {e}")
 except Exception as e:
-    print(f"\n❌ Неожиданная ошибка: {type(e).__name__}: {e}")```
+    print(f"\n❌ Неожиданная ошибка: {type(e).__name__}: {e}")
+```
+
+
+There are more functions, this is just example how it works
