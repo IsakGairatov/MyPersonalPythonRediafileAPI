@@ -1,11 +1,11 @@
 import requests
 from datetime import datetime, timedelta
 
-from config import BASE_URL, TOKEN_TTL_MINUTES, REQUEST_TIMEOUT
-from exceptions import RediafileError
-from account import AccountMixin
-from files import FilesMixin
-from folders import FoldersMixin
+from .config import BASE_URL, TOKEN_TTL_MINUTES, REQUEST_TIMEOUT
+from .exceptions import RediafileError
+from .account import AccountMixin
+from .files import FilesMixin
+from .folders import FoldersMixin
 
 
 class _BaseClient:
